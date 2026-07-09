@@ -38,7 +38,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_57555550)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -59,7 +59,7 @@
 			(pdf_metadata yes)
 			(pdf_single_document no)
 			(dxfpolygonmode yes)
-			(dxfimperialunits yes)
+			(dxfimperialunits no)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
@@ -70,11 +70,11 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 0)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./")
 		)
 	)
 	(net 0 "")
@@ -486,6 +486,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/sayed/Downloads/LED_SK6812MINI-E.step"
+			(offset
+				(xyz 0 5.2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -769,6 +780,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/sayed/Downloads/MX .STEP"
+			(offset
+				(xyz 5 2 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -1429,6 +1451,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/sayed/Downloads/MX .STEP"
+			(offset
+				(xyz 5 2 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -1712,6 +1745,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/sayed/Downloads/MX .STEP"
+			(offset
+				(xyz 5 2 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -1999,6 +2043,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/sayed/Downloads/MX .STEP"
+			(offset
+				(xyz 5 2 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -2282,6 +2337,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/sayed/Downloads/MX .STEP"
+			(offset
+				(xyz 5 2 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -3315,6 +3381,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/sayed/Downloads/MX .STEP"
+			(offset
+				(xyz 5 2 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -4346,6 +4423,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/sayed/Downloads/MX .STEP"
+			(offset
+				(xyz 5 2 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
@@ -4622,13 +4710,24 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 4.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/sayed/Downloads/MX .STEP"
+			(offset
+				(xyz 5 2 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -8057,6 +8156,17 @@
 			(uuid "cf2631af-0dcd-441c-852c-523d63e2455e")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sayed/Downloads/Seeed Studio XIAO RP2040 v26.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -9186,6 +9296,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/sayed/Downloads/LED_SK6812MINI-E.step"
+			(offset
+				(xyz 0 5.2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
